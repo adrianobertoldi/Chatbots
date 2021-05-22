@@ -1,0 +1,1019 @@
+{
+  "intents": [
+    {
+      "intent": "Automotivo",
+      "examples": [
+        {
+          "text": "Automóvel"
+        },
+        {
+          "text": "Bólido"
+        },
+        {
+          "text": "Camionete"
+        },
+        {
+          "text": "Carro"
+        },
+        {
+          "text": "Moto"
+        },
+        {
+          "text": "Possante"
+        },
+        {
+          "text": "Veículo"
+        },
+        {
+          "text": "Viatura"
+        }
+      ],
+      "description": "Tipo de subdivisão dos seguros automotivos"
+    },
+    {
+      "intent": "Danos_Eletricos",
+      "examples": [
+        {
+          "text": "Danos elétricos"
+        },
+        {
+          "text": "Meu ar condicionado queimou"
+        },
+        {
+          "text": "Meu computador queimou"
+        },
+        {
+          "text": "Meu microondas queimou"
+        },
+        {
+          "text": "Meus aparelhos elétricos queimaram"
+        },
+        {
+          "text": "Meus aparelhos eletrônicos queimaram"
+        },
+        {
+          "text": "Minha geladeira queimou"
+        },
+        {
+          "text": "Minha televisão queimou"
+        },
+        {
+          "text": "Minha tv queimou"
+        },
+        {
+          "text": "Um pico de energia estragou meus aparelhos"
+        },
+        {
+          "text": "Um raio atingiu minha casa"
+        }
+      ],
+      "description": "Atendimento referente a danos elétricos (Aparelhos, fiação e etc) residenciais"
+    },
+    {
+      "intent": "Furto_automotivo",
+      "examples": [
+        {
+          "text": "Furto automotivo"
+        },
+        {
+          "text": "Meu automóvel foi furtado"
+        },
+        {
+          "text": "Meu carro foi furtado"
+        },
+        {
+          "text": "Meu carro foi roubado"
+        },
+        {
+          "text": "Meu carro sumiu"
+        },
+        {
+          "text": "Roubaram meu carro"
+        }
+      ],
+      "description": "Assistência a roubo/furto automotivo"
+    },
+    {
+      "intent": "Furto_imovel",
+      "examples": [
+        {
+          "text": "Alguém roubou minha casa"
+        },
+        {
+          "text": "Furtaram meus equipamentos"
+        },
+        {
+          "text": "Furto imóvel"
+        },
+        {
+          "text": "Minha casa foi furtada"
+        },
+        {
+          "text": "Minha casa foi roubada"
+        },
+        {
+          "text": "Roubaram meus eletrodomesticos"
+        },
+        {
+          "text": "Roubaram meus eletrônicos"
+        },
+        {
+          "text": "Roubaram minha TV"
+        },
+        {
+          "text": "Roubo imóvel"
+        },
+        {
+          "text": "Sumiram coisas de minha casa"
+        },
+        {
+          "text": "Um ladrão entrou em minha casa"
+        }
+      ],
+      "description": "Assistência referente a roubos e furtos"
+    },
+    {
+      "intent": "Incendio_residencial",
+      "examples": [
+        {
+          "text": "Incêndio Residencial"
+        },
+        {
+          "text": "Meu apartamento incendiou"
+        },
+        {
+          "text": "Minha casa incendiou"
+        },
+        {
+          "text": "Minha casa pegou fogo"
+        },
+        {
+          "text": "Minha casa queimou"
+        },
+        {
+          "text": "Minha residência foi queimada"
+        },
+        {
+          "text": "Parte da minha casa pegou fogo"
+        },
+        {
+          "text": "pegou fogo"
+        }
+      ],
+      "description": "Assistência referente a incêndios residenciais"
+    },
+    {
+      "intent": "Infraestrutura",
+      "examples": [
+        {
+          "text": "Danos estruturais"
+        },
+        {
+          "text": "Encanamento"
+        },
+        {
+          "text": "Goteira"
+        },
+        {
+          "text": "Infraestrutura"
+        },
+        {
+          "text": "Manutenção da estrutura"
+        },
+        {
+          "text": "Rachadura"
+        },
+        {
+          "text": "Reboco"
+        },
+        {
+          "text": "Tem uma goteira na minha casa"
+        },
+        {
+          "text": "Vazamento"
+        }
+      ],
+      "description": "Atendimento referente a infraestrutura"
+    },
+    {
+      "intent": "Limpeza_imovel",
+      "examples": [
+        {
+          "text": "Limpeza casa"
+        },
+        {
+          "text": "Limpeza de imóvel"
+        },
+        {
+          "text": "Minha caixa de água está suja"
+        },
+        {
+          "text": "Minha casa está suja"
+        },
+        {
+          "text": "Minha piscina está suja"
+        },
+        {
+          "text": "Preciso ajeitar meu jardim"
+        },
+        {
+          "text": "Preciso limpar meu telhado"
+        },
+        {
+          "text": "Preciso limpar minha caixa de água"
+        },
+        {
+          "text": "Preciso limpar minhas calçadas"
+        }
+      ],
+      "description": "Serviço referente a limpeza da residência"
+    },
+    {
+      "intent": "Pintura_residencial",
+      "examples": [
+        {
+          "text": "A pintura da minha casa está feia"
+        },
+        {
+          "text": "Preciso pintar meu apartamento"
+        },
+        {
+          "text": "Preciso pintar meu imóvel"
+        },
+        {
+          "text": "Preciso pintar minha casa"
+        },
+        {
+          "text": "Preciso repintar minha casa"
+        }
+      ],
+      "description": "Assistencia referente a pintura residencial"
+    },
+    {
+      "intent": "Residencial",
+      "examples": [
+        {
+          "text": "Apartamento"
+        },
+        {
+          "text": "Casa"
+        },
+        {
+          "text": "Lar"
+        },
+        {
+          "text": "Meu apartamento"
+        },
+        {
+          "text": "Meu lar"
+        },
+        {
+          "text": "Minha casa"
+        },
+        {
+          "text": "Residencial"
+        }
+      ],
+      "description": "Tipo de subdivisão dos seguros residenciais"
+    },
+    {
+      "intent": "sinistro_automotivo",
+      "examples": [
+        {
+          "text": "Bateram no meu carro"
+        },
+        {
+          "text": "Bati meu carro"
+        },
+        {
+          "text": "Meu carro caiu na água"
+        },
+        {
+          "text": "Meu carro caiu na enchente"
+        },
+        {
+          "text": "Meu carro está batido"
+        },
+        {
+          "text": "Meu carro está muito danificado"
+        },
+        {
+          "text": "Meu carro foi envolvido num acidente"
+        },
+        {
+          "text": "Meu carro foi soterrado"
+        },
+        {
+          "text": "sinistro automóvel"
+        },
+        {
+          "text": "Sofri um acidente com meu carro"
+        }
+      ],
+      "description": "Assistência a sinistros"
+    },
+    {
+      "intent": "solicitacao_guincho",
+      "examples": [
+        {
+          "text": "Meu automóvel está sem bateria"
+        },
+        {
+          "text": "Meu carro enguiçou"
+        },
+        {
+          "text": "Meu carro não pega mais"
+        },
+        {
+          "text": "Meu carro quebrou"
+        },
+        {
+          "text": "Não consigo mais ligar meu carro"
+        },
+        {
+          "text": "O motor do meu carro não liga mais"
+        },
+        {
+          "text": "Solicitação de guincho"
+        }
+      ],
+      "description": "Assistente para solicitação de guincho"
+    }
+  ],
+  "entities": [
+    {
+      "entity": "numero_apolice",
+      "values": [
+        {
+          "type": "patterns",
+          "value": "numero_apolice",
+          "patterns": [
+            "[0-9]{4}"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "solicitacao_atendida",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Sim",
+          "synonyms": [
+            "Afirmativo",
+            "Com certeza",
+            "Positivo",
+            "Tudo certo"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    }
+  ],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    }
+  },
+  "webhooks": [
+    {
+      "url": "https://webhook.site/85f0e81c-0aaf-49d3-9798-008572c87063",
+      "name": "main_webhook",
+      "headers": []
+    }
+  ],
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "title": "Bem vindo!",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Olá. Sou a assistente virtual da X Seguros, você precisa de ajuda com seu seguro residencial ou automotivo?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "context": {
+        "solicitacao_atendida": "False"
+      },
+      "conditions": "welcome",
+      "dialog_node": "Bem-vindo"
+    },
+    {
+      "type": "standard",
+      "title": "Em outros casos",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Eu não entendi. Você pode tentar reformular a frase."
+              },
+              {
+                "text": "Você pode reformular sua afirmação? Eu não estou entendendo."
+              },
+              {
+                "text": "Eu não entendi o sentido."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "anything_else",
+      "dialog_node": "Em outros casos",
+      "previous_sibling": "node_7_1620089592418",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "event_handler",
+      "parent": "node_2_1620084791359",
+      "event_name": "focus",
+      "dialog_node": "handler_1_1620086875172"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_4_1620086875807",
+      "context": {
+        "apolice_residencial": "@apolice_residencial"
+      },
+      "conditions": "@apolice_residencial",
+      "event_name": "input",
+      "dialog_node": "handler_1_1620086875834"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "slot_9_1620089800595",
+      "event_name": "focus",
+      "dialog_node": "handler_8_1620089800624",
+      "previous_sibling": "handler_9_1620089800624"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_4_1620086875807",
+      "event_name": "focus",
+      "dialog_node": "handler_9_1620086875834",
+      "previous_sibling": "handler_1_1620086875834"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_9_1620089800595",
+      "context": {
+        "undefined": "$numero_apolice",
+        "\"<?input.text?>\"": "$numero_apolice"
+      },
+      "conditions": "$numero_apolice",
+      "event_name": "input",
+      "dialog_node": "handler_9_1620089800624"
+    },
+    {
+      "type": "standard",
+      "title": "Solicitação de guincho",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Tudo bem, iremos providenciar um guincho para seu veículo."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1620260707653",
+      "context": {
+        "intencao": "solicitação de guincho"
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_7_1620089592418"
+      },
+      "conditions": "#solicitacao_guincho",
+      "dialog_node": "node_10_1620261484686",
+      "previous_sibling": "node_3_1620261146091"
+    },
+    {
+      "type": "standard",
+      "title": "Atendimento Residencial",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Diga-nos, sobre o que você necessita de atendimento em sua residência? Prestamos assistência para os casos de danos estruturais, danos elétricos, furto/roubo, incêndio, limpeza ou pintura."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#Residencial",
+      "dialog_node": "node_1_1620084662986",
+      "previous_sibling": "Bem-vindo"
+    },
+    {
+      "type": "standard",
+      "title": "Assistência para Pintura Residencial",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Tudo bem, vemos que você precisa de assistência para pintura residencial."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1620084662986",
+      "context": {
+        "intencao": "assistência para pintura residencial"
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_7_1620089592418"
+      },
+      "conditions": "#Pintura_residencial",
+      "dialog_node": "node_1_1620258257439",
+      "previous_sibling": "node_9_1620258064391"
+    },
+    {
+      "type": "standard",
+      "title": "Assistência infraestrutura (Residencial)",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Certo, vemos que você está precisando de um suporte na infraestrutura de seu imóvel."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1620084662986",
+      "context": {
+        "intencao": "assistência para infraestrutura"
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_7_1620089592418"
+      },
+      "conditions": "#Infraestrutura",
+      "dialog_node": "node_2_1620084791359"
+    },
+    {
+      "type": "standard",
+      "title": "Incêndio Residencial",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Certo, vemos que você precisa acionar a assistência para danos por incêndio."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1620084662986",
+      "context": {
+        "intencao": "assistência para incêndio residencial"
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_7_1620089592418"
+      },
+      "conditions": "#Incendio_residencial",
+      "dialog_node": "node_3_1620257976268",
+      "previous_sibling": "node_5_1620257654274"
+    },
+    {
+      "type": "standard",
+      "title": "Sinistro/Acidente automotivo",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Certo, você necessita de atendimento para Acidente/Sinistro automotivo."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1620260707653",
+      "context": {
+        "intencao": "assistência para sinistro automotivo"
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_7_1620089592418"
+      },
+      "conditions": "#sinistro_automotivo",
+      "dialog_node": "node_3_1620261146091",
+      "previous_sibling": "node_5_1620260878627"
+    },
+    {
+      "type": "standard",
+      "title": "Registra Endereço",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Certo, confirmando a solicitação de atendimento da apólice $numero_apolice no endereço $endereco"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1620090589677",
+      "context": {
+        "endereco": "<?input.text?>"
+      },
+      "metadata": {
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "next_step": {
+        "behavior": "skip_user_input"
+      },
+      "conditions": "$intencao",
+      "dialog_node": "node_3_1620351178839"
+    },
+    {
+      "type": "standard",
+      "title": "Furto de Imóvel",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Certo, você precisa de assistência para Furto/Roubo de imóvel."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1620084662986",
+      "context": {
+        "intencao": "assistência para furto/roubo residencial"
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_7_1620089592418"
+      },
+      "conditions": "#Furto_imovel",
+      "dialog_node": "node_5_1620257654274",
+      "previous_sibling": "node_8_1620257395294"
+    },
+    {
+      "type": "standard",
+      "title": "Furto/Roubo Automotivo",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Certo, você deseja atendimento para Roubo/Furto automotivo."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1620260707653",
+      "context": {
+        "intencao": "assistência para roubo/furto automotivo"
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_7_1620089592418"
+      },
+      "conditions": "#Furto_automotivo",
+      "dialog_node": "node_5_1620260878627"
+    },
+    {
+      "type": "standard",
+      "title": "Chamada webhook (API Seguradora)",
+      "parent": "node_3_1620351178839",
+      "actions": [
+        {
+          "name": "main_webhook",
+          "type": "webhook",
+          "parameters": {
+            "apolice": "$numero_apolice",
+            "endereco": "$endereco"
+          },
+          "result_variable": "webhook_result_1"
+        }
+      ],
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "$intencao",
+      "dialog_node": "node_5_1621113825015"
+    },
+    {
+      "type": "standard",
+      "title": "Registra Apólice",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Agora, passe-nos o endereço para realização do atendimento."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1620089592418",
+      "context": {
+        "numero_apolice": "<?input.text?>"
+      },
+      "conditions": "$intencao",
+      "dialog_node": "node_6_1620090589677"
+    },
+    {
+      "type": "standard",
+      "title": "Confirmação",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Iremos confirmar a sua solicitação. Por favor, nos passe a sua apólice (XXXX):"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "context": {},
+      "conditions": "$intencao",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_7_1620089592418",
+      "previous_sibling": "node_9_1620260707653"
+    },
+    {
+      "type": "standard",
+      "title": "Danos Elétricos Residenciais",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Tudo bem, você deseja solicitar assistência para danos elétricos residenciais."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1620084662986",
+      "context": {
+        "intencao": "assistência para danos elétricos"
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_7_1620089592418"
+      },
+      "conditions": "#Danos_Eletricos",
+      "dialog_node": "node_8_1620257395294",
+      "previous_sibling": "node_2_1620084791359"
+    },
+    {
+      "type": "standard",
+      "title": "Assistência para Limpeza Residencial",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Tudo bem, vemos que você quer acionar a assistência para limpeza residencial."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1620084662986",
+      "context": {
+        "intencao": "assistência para limpeza residencial"
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_7_1620089592418"
+      },
+      "conditions": "#Limpeza_imovel",
+      "dialog_node": "node_9_1620258064391",
+      "previous_sibling": "node_3_1620257976268"
+    },
+    {
+      "type": "standard",
+      "title": "Atendimento  Automotivo",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Diga-nos, sobre o que podemos ajudar no seu seguro automotivo?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#Automotivo",
+      "dialog_node": "node_9_1620260707653",
+      "previous_sibling": "node_1_1620084662986"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_3_1620351178839",
+      "disabled": true,
+      "conditions": "$webhook_result_1",
+      "dialog_node": "response_1_1621113730930",
+      "previous_sibling": "response_3_1621113729713"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Certo, confirmando a solicitação de atendimento da apólice $numero_apolice no endereço $endereco"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Em breve um membro de nossa equipe entrará em contato com o titular da apólice para agendar e passar mais informações sobre o processo de $intencao. A X Seguros está à seu dispor, conte sempre conosco!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1620351178839",
+      "context": {
+        "endereco": "<?input.text?>"
+      },
+      "disabled": true,
+      "dialog_node": "response_3_1621113729713",
+      "previous_sibling": "node_5_1621113825015"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Tudo certo com sua solicitação. Em breve um membro de nossa equipe entrará em contato com o titular da apólice para agendar e passar mais informações sobre o processo de $intencao. Agradecemos seu contato!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1621113825015",
+      "conditions": "$webhook_result_1",
+      "dialog_node": "response_6_1621114155939"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Desculpe-nos, mas algo não saiu como o planejado. Por favor, repita o processo de solicitação e confirme o número da apólice."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_5_1621113825015",
+      "conditions": "anything_else",
+      "dialog_node": "response_7_1621114157394",
+      "previous_sibling": "response_6_1621114155939"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_3_1620351178839",
+      "disabled": true,
+      "conditions": "anything_else",
+      "dialog_node": "response_8_1621113731437",
+      "previous_sibling": "response_1_1621113730930"
+    },
+    {
+      "type": "slot",
+      "parent": "node_2_1620084791359",
+      "variable": "$apolice_residencial",
+      "dialog_node": "slot_4_1620086875807",
+      "previous_sibling": "handler_1_1620086875172"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_7_1620089592418",
+      "variable": "\"<?input.text?>\"",
+      "dialog_node": "slot_9_1620089800595",
+      "previous_sibling": "node_6_1620090589677"
+    }
+  ],
+  "counterexamples": [],
+  "system_settings": {
+    "disambiguation": {
+      "prompt": "Você quis dizer:",
+      "enabled": true,
+      "randomize": true,
+      "max_suggestions": 5,
+      "suggestion_text_policy": "title",
+      "none_of_the_above_prompt": "Nenhuma das anteriores"
+    },
+    "system_entities": {
+      "enabled": true
+    },
+    "human_agent_assist": {
+      "prompt": "Você quis dizer:"
+    }
+  },
+  "learning_opt_out": false,
+  "name": "Chatbot Seguradora",
+  "language": "pt-br",
+  "description": "Chatbot seguradora"
+}
